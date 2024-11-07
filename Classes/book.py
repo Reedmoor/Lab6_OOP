@@ -1,4 +1,4 @@
-from Classes.author import Author
+from Lab6_OOP.Classes.author import Author
 class Book:
     def __init__(self, title, author: Author, year, available=True):
         self.title = title
