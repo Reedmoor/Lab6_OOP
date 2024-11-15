@@ -10,5 +10,11 @@
         "author": "Харпер Ли",
         "year": 1960,
         "available": true
+    },
+    {
+        "title": "123",
+        "author": "123",
+        "year": 2024,
+        "available": true
     }
 ]
