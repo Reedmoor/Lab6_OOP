@@ -1,0 +1,14 @@
+[
+    {
+        "title": "1984",
+        "author": "Джордж Оруэлл",
+        "year": 1949,
+        "available": false
+    },
+    {
+        "title": "Убить пересмешника",
+        "author": "Харпер Ли",
+        "year": 1960,
+        "available": true
+    }
+]

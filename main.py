@@ -3,6 +3,7 @@ from Lab6_OOP.Classes.author import Author
 from Lab6_OOP.Classes.book import Book
 from Lab6_OOP.Classes.library import Library
 
+
 def main():
     # Создание библиотеки
     library = Library()

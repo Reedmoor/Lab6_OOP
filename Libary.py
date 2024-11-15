@@ -9,7 +9,9 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+import sys
+from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QApplication, QMainWindow
 
 class Ui_Main(object):
     def setupUi(self, Main):
@@ -112,3 +114,20 @@ class Ui_Main(object):
         item.setText(_translate("Main", "Жанр книги"))
         item = self.BookTable.horizontalHeaderItem(4)
         item.setText(_translate("Main", "Дата публикации"))
+
+class LibraryApp(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.ui = Ui_Main()
+        self.ui.setupUi(self)
+
+
+def main():
+    app = QApplication(sys.argv)
+    window = LibraryApp()
+    window.show()
+    sys.exit(app.exec_())
+
+
+if __name__ == '__main__':
+    main()
